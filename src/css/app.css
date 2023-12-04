@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #f5f5f5;
+}
+@font-face {
+    font-family: "NotoSansJP";
+    src: format("embedded-opentype"), url("../fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "UbuntuMono";
+    src: format("embedded-opentype"), url("../fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf") format("truetype");
+}
